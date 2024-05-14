@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 100vh;
+}
+
+.page1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+    
+}
+.login{
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:black;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.login form{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.login input{
+    margin-top: 20px;
+    margin-left: -30px;
+    margin-bottom: -10px;
+    background-color:white;
+    width:23rem;
+    color: black;
+    border: none;
+    height: 45px;
+    outline:none;
+    border-radius: 2px;
+    padding-left: 40px;
+
+}
+.input::placeholder{
+    color: black;
+    font-size: 14px;
+}
+
+.botao{
+    margin-top: 20px;
+    margin-left: -30px;
+    background-color: white;
+    border-radius: 5px;
+    width: 23rem;
+    padding: 5%; 
+    font-family: "DM Serif Display", serif; 
+    }
+
+ .rian{
+    position: fixed;
+    margin-top: 5%;
+    margin-left: 50rem;
+    font-size: 100px;
+    font-family: "DM Serif Display", serif;
+ }   
+
+ a{
+    text-decoration: none;
+    color: white;
+    font-family: "DM Serif Display", serif;
+ }
+
+ .peixe{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
+ }
+
+
+
